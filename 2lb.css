@@ -1,0 +1,120 @@
+div{
+	background: #2f5473;
+	font-size: 115%;
+	padding: 7px;
+	margin-bottom: 20px;
+	overflow: auto
+
+}
+p{
+	color: #e8f013;
+	font-size: 115%;
+	font-family:'Times New Roman', serif;
+}
+img:hover{
+	border: 5px solid #b80000;
+}
+img {
+	border: 5px solid #0a0000;
+}
+
+#leftimg {
+    float: left;/* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0;     /* Отступы вокруг картинки */
+   }
+.rightimg {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 7px 15px 7px; /* Отступы вокруг картинки */
+   }   
+
+input[type='radio']{
+    cursor: pointer;
+}
+div.Box{
+	background: white;
+	 width: 130px;
+  	height: 130px;
+  	transition: .5s;
+}
+#r2:checked~.Box
+{
+	background: orange;
+}
+#r3:checked~.Box
+{
+	background: green;
+}
+label.lb{
+	background: black;
+}
+#r3:checked~.Box
+{
+	background: green;
+}
+.block0, .block1, .block2, .block3 {
+    width: 300px;
+    height: 100px;
+}
+
+.block0 {
+    background-color: red;
+}
+
+.block1 {
+    background-color: blue;
+}
+
+.block2 {
+    background-color: #000;
+}
+
+.block3 {
+    background-color: gray;
+}
+
+#section1 .block0 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#section1 .block1 {
+    background-color: blue;
+    position: relative;
+    z-index: 1;
+}
+
+#section1 .block2 {
+    background-color: #000;
+    position: relative;
+    right: -10px;
+    top: -90px;
+}
+#section3 {
+    clear: both;
+}
+
+.blocks {
+    color: #fff;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+}
+
+.blocks div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section3 .block0 {
+    order: 2;
+}
+
+#section3 .block1 {
+    order: 3;
+}
+
+#section3 .block2 {
+    order: 1;
+}
